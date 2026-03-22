@@ -49,37 +49,37 @@ const PROJECTS: Project[] = [
   {
     name: "24/7 AI Support Chatbot",
     problem: "Automated customer queries using SQRR framework, Chatling, and Make.com to provide instant, accurate AI replies.",
-    image: "/src/assets/ai_chatbot.png",
+    image: "/assets/ai_chatbot.png",
     live: "https://share.chatling.ai/s/tab9e4fwh2bcAtE"
   },
   {
     name: "Freedom With AI Demo Bot",
     problem: "A comprehensive assistant for room bookings, policy searches, and training resource management using Airtable integration.",
-    image: "/src/assets/fwai_bot.png",
+    image: "/assets/fwai_bot.png",
     live: "https://share.chatling.ai/s/RXe6wCddnkuofMA"
   },
   {
     name: "AI Voice Automation Agent",
     problem: "Providing 24x7 call support through advanced voice synthesis and automation workflows.",
-    image: "/src/assets/ai_voice_agent.png",
+    image: "/assets/ai_voice_agent.png",
     live: "https://www.canva.com/design/DAHEf9t8GOY/I3eK47XRLmUX1D5b6iHh-Q/watch?utm_content=DAHEf9t8GOY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5d55087daa"
   },
   {
     name: "SuperCar model ad (Demo)",
     problem: "Advertisement created using AI for a imaginary Car brand.",
-    image: "/src/assets/superCar.png",
+    image: "/assets/superCar.png",
     live: "https://www.canva.com/design/DAHEk6Y3NoM/gEmY4Jd-aAuZKZLIvLOX-Q/edit?utm_content=DAHEk6Y3NoM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     name: "When Old and New Legends Meet",
     problem: "A creative AI exploration blending historical figures with modern-day contexts.",
-    image: "/src/assets/legends.png",
+    image: "/assets/legends.png",
     live: "https://www.canva.com/design/DAHEk8KZnUA/dY9Pj2o21EegiPeuxuGEAQ/edit?utm_content=DAHEk8KZnUA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     name: "Time Travel of a Rider",
     problem: "A cinematic AI-driven narrative showcasing the evolution of riding through different eras.",
-    image: "/src/assets/timetravel.png",
+    image: "/assets/timetravel.png",
     live: "https://www.canva.com/design/DAHEk3bxq0Y/YalCSEESk30Be7uVhbtcBw/edit?utm_content=DAHEk3bxq0Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   }
 ];
@@ -236,7 +236,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center space-x-2">
           <img 
-            src="/src/assets/brandlogo.jpeg" 
+            src="/assets/brandlogo.jpeg" 
             alt="SQRR Logo" 
             className="h-10 w-auto"
             referrerPolicy="no-referrer"
@@ -390,7 +390,7 @@ export default function App() {
           >
             <div id="profile-photo" className="w-full aspect-square max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl border-8 border-white">
               <img 
-                src="/src/assets/profilrimg.png" 
+                src="/assets/profilrimg.png" 
                 alt="Natasha Sen" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
