@@ -9,7 +9,7 @@ import {
   TrendingUp, 
   Mail, 
   MapPin, 
-  Phone,
+  MessageCircle,
   ChevronRight, 
   ExternalLink, 
   Github, 
@@ -154,7 +154,7 @@ const CERTIFICATIONS: Certification[] = [
     name: "Behaviour of LLM", 
     issuer: "Infosys", 
     year: "2024", 
-    url: "https://media.licdn.com/dms/image/v2/D4D2DAQFgnjWflb5ovA/profile-treasury-image-shrink_160_160/B4DZ0P.fAyH4Ak-/0/1774089532468?e=1774695600&v=beta&t=1G6kwNnua33OyYXWEC71MstE8XsIw7SsCR0zVQiJ4ok" 
+    url: "https://media.licdn.com/dms/image/v2/D4D2DAQFgnjWflb5ovA/profile-treasury-image-shrink_1280_1280/B4DZ0P.fAyH4AQ-/0/1774089532468?e=1774800000&v=beta&t=x2o4EKdmZRIPfoXOLH8HS6qq1ya90MqCrSibPuNt6R0" 
   }
 ];
 
@@ -729,11 +729,16 @@ export default function App() {
 
             <div className="flex flex-col items-center space-y-4">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center">
-                <Phone size={28} />
+                <MessageCircle size={28} />
               </div>
               <div>
-                <p className="text-sm text-white/50 uppercase tracking-widest font-bold mb-1">Call Me</p>
-                <a href="tel:9007145941" className="text-xl font-medium hover:text-accent transition-colors">
+                <p className="text-sm text-white/50 uppercase tracking-widest font-bold mb-1">WhatsApp Me</p>
+                <a 
+                  href="https://wa.me/919007145941" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-xl font-medium hover:text-accent transition-colors"
+                >
                   9007145941
                 </a>
               </div>
