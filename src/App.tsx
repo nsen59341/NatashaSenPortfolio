@@ -77,10 +77,10 @@ const PROJECTS: Project[] = [
     live: "https://www.canva.com/design/DAHEk8KZnUA/dY9Pj2o21EegiPeuxuGEAQ/edit?utm_content=DAHEk8KZnUA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
-    name: "Time Travel of a Rider",
-    problem: "A cinematic AI-driven narrative showcasing the evolution of riding through different eras.",
-    image: "/assets/timetravel.png",
-    live: "https://www.canva.com/design/DAHEk3bxq0Y/YalCSEESk30Be7uVhbtcBw/edit?utm_content=DAHEk3bxq0Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    name: "Audio Language Transfer App",
+    problem: "Advanced AI-powered tool for seamless audio language translation and transformation.",
+    image: "/assets/linguistive.png",
+    live: "https://speechtodiff.netlify.app/"
   }
 ];
 
@@ -480,6 +480,16 @@ export default function App() {
                 icon: <Code size={32} />,
                 title: "Workflow Automation",
                 desc: "Consulting for teams to automate repetitive dev tasks using Make.com, LangChain, and custom AI agents."
+              },
+              {
+                icon: <Globe size={32} />,
+                title: "Website/App Building",
+                desc: "Building high-performance, scalable websites and applications tailored to your business needs."
+              },
+              {
+                icon: <Video size={32} />,
+                title: "Image/Video Creation",
+                desc: "Crafting stunning visuals and cinematic videos using cutting-edge AI tools like Midjourney, Sora, and Runway."
               }
             ].map((service, idx) => (
               <motion.div 
