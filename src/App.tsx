@@ -83,6 +83,12 @@ const PROJECTS: Project[] = [
     problem: "Advanced AI-powered tool for seamless audio language translation and transformation.",
     image: "/assets/linguistive.png",
     live: "https://speechtodiff.netlify.app/"
+  },
+  {
+    name: "GuessMaster",
+    problem: "A brain-teasing game where you guess famous landmarks and personalities with 5 clever hints. Score big on your first hint, lose points on wrong guesses.",
+    image: "/assets/guessmaster.png",
+    live: "https://guess-champ-pro.lovable.app"
   }
 ];
 
